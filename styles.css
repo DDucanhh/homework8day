@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+h3 {
+  font-size: 20px;
+}
+.b {
+  margin-bottom: 16px;
+}
+
+.styl {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background-color: rgb(234, 234, 234);
+  font-weight: 600;
+}
+.gt {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bor p {
+  font-weight: 600;
+}
+/* .bor input {
+  flex: ;
+} */
+.hel {
+  display: flex;
+}
+.hel input {
+  flex: 0 0 1;
+  border-radius: 4px;
+}
